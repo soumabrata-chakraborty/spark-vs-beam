@@ -24,7 +24,7 @@ All runs were made on a YARN cluster with the datasets in HDFS.  For each run, w
 Here are the average execution times over 3 runs:
 
 Dataset Size | Apache Spark | Apache Beam with Spark Runner | Result
--------------|--------------|---------------------------------------------
+-------------|--------------|-------------------------------|-------------
 14 MB | 13.66 seconds | 14.33 seconds | Beam is ~ 5% slower than Spark
 14 GB | 9.3 minutes | 43.6 minutes | Beam is 5 times slower than Spark
 
