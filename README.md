@@ -15,10 +15,10 @@ Word Count is the Hello World of distributed compute frameworks.  We used the te
 Here are the links to the [Spark Word Count Example](https://spark.apache.org/examples.html) and the [Beam Word Count Example](https://beam.apache.org/get-started/wordcount-example/)
 We ran it on the 14 MB dataset and also on the 14 GB dataset.
 
-####Set Up
+#### Set Up
 All runs were made on a YARN cluster with the datasets in HDFS.  For each run, we had 4 executors with 1 core per executor and 2 GB memory per executor.
 
-####Conclusion
+#### Conclusion
 **On the smaller 14MB dataset, Beam was 5% slower than Spark.  On the larger 14GB dataset though, Beam was a whopping 5 times slower than Spark!!** 
 
 Here are the average execution times over 3 runs:
